@@ -45,3 +45,29 @@ body{
 h1{
     font-size:3.75rem;
 }
+
+p{
+    margin:0.9375rem;
+    font-size:0.875rem;
+    font-family:'Roboto Flex', sans-serif;
+    font-weight:200;
+}
+hr{
+    width:20rem;
+    margin:0 auto;
+    opacity:0.2;
+    color:var(--secondary-color);
+    border:2px solid var(--secondary-color);
+}
+h1,h2,p{
+    text-align:center;
+    color:var(--secondary-color);
+}
+a{
+    font-size:0.875rem;
+    text-decoration:none;
+    color:var(--tertiary-color);
+}
+a:hover{
+    color:var(--secondary-color);
+}
