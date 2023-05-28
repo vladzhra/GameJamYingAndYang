@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    --black:#2D2D2D;
+    --white:#FFFFFF;
+    --gray:#ABABAB;
+    --red:#F20C0C;
+    --gold:#F2A81D;
+    --white-gold:#F2E3B3;
+}
