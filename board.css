@@ -1,0 +1,55 @@
+/* Game Board */
+#gameContainer{
+    width:21.875rem;
+    margin:0.625rem auto;
+    background-color:var(--tertiary-color);
+    border-radius:0.625rem;
+}
+#cardContainer{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:0 auto; 
+    padding-bottom:1.5625rem;
+    padding-right:1.1875rem; 
+}
+.card{
+    font-size:2.5rem;
+    margin:0.625rem;
+    width:3.75rem;
+    height:3.75rem;
+    text-align:center;
+    position:absolute;
+    transform-style:preserve-3d;
+    transition:all 0.5s ease;
+    color:var(--primary-color);
+    border-radius:0.25rem;
+}
+.card.cardFlip{
+    transform:rotateY(180deg) ;
+}
+.flip{
+    margin:0.625rem;
+    width:3.75rem;
+    height:3.75rem;
+}
+.front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-color:var(--secondary-color);
+    border-radius:0.25rem;
+    background-image:url("Images/pandaicon.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-color:var(--secondary-color);
+    transform:rotateY(180deg);
+    border-radius:0.25rem;
+}
