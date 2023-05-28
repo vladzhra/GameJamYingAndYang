@@ -81,11 +81,6 @@ a{
     text-decoration:none;
     color:var(--tertiary-color);
 }
-a{
-    font-size:0.875rem;
-    text-decoration:none;
-    color:var(--tertiary-color);
-}
 a:hover{
     color:var(--secondary-color);
 }
