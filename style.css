@@ -10,3 +10,38 @@
     --gold:#F2A81D;
     --white-gold:#F2E3B3;
 }
+
+/* Color theme preference */
+@media(prefers-color-scheme: light){
+    :root{
+        --primary-color:var(--white);
+        --secondary-color:var(--black);
+        --tertiary-color:var(--gray);
+    }
+}
+@media(prefers-color-scheme: dark){
+    :root{
+        --primary-color:var(--black);
+        --secondary-color:var(--white);
+        --tertiary-color:var(--gray);
+    }
+}
+
+/* Global Elements */
+body[data-theme='light'] {
+    --primary-color:var(--white);
+    --secondary-color:var(--black);
+    --tertiary-color:var(--gray);
+}
+body[data-theme='dark']{
+    --primary-color:var(--black);
+    --secondary-color:var(--white);
+    --tertiary-color:var(--gray);
+}
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color:var(--primary-color);
+}
+h1{
+    font-size:3.75rem;
+}
